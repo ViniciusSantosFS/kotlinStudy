@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">basicConcepts</string>
+    <string name="title">Change me</string>
+    <string name="number">0</string>
+    <string name="button">Change Title</string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonLess">-</string>
+    <string name="input">Select new title</string>
+</resources>

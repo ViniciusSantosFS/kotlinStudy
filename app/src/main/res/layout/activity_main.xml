@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/number"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/number"
+        android:textSize="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="10dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="24dp"
+        />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="20dp"
+        android:inputType="text"
+        android:hint="@string/input"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/button"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/less"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonLess"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonPlus"
+            />
+    </LinearLayout>
+</LinearLayout>
